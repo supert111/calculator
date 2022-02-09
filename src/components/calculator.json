@@ -1,0 +1,135 @@
+{
+    "ALLSIMPLE":
+        {
+            "IP": {
+                "USN_d": 2500,
+                "USN_d_r": 3500,
+                "OSNO": 4000
+            },
+            "OOO": {
+                "USN_d": 3250,
+                "USN_d_r": 4550,
+                "OSNO": 5200
+            },
+            "fields":{
+                "turnoverPerMonth": 1000,
+                "employees": null,
+                "сashierOneUnit": 1000,
+                "combinationWithPatent": 3000,
+                "currencyAccounts": null,
+                "newPartnersPerMonth": null 
+            },
+
+            "performance": {
+                "USN_d": {
+                    "IP": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    },
+                    "OOO": {
+                        "itServices": null,
+                        "trade": 2275,
+                        "productionAndConstruction": 2600,
+                        "publicCatering": 1625
+                    }
+                },
+                "USN_d_r": {
+                    "IP": {
+                        "itServices": null,
+                        "trade": 2450,
+                        "productionAndConstruction": 2800,
+                        "publicCatering": 1750
+                    },
+                    "OOO": {
+                        "itServices": null,
+                        "trade": 3185,
+                        "productionAndConstruction": 3640,
+                        "publicCatering": 2275
+                    }
+                },
+                "OSNO": {
+                    "IP": {
+                        "itServices": null,
+                        "trade": 2800,
+                        "productionAndConstruction": 3200,
+                        "publicCatering": 2000
+                    },
+                    "OOO": {
+                        "itServices": null,
+                        "trade": 3640,
+                        "productionAndConstruction": 4160,
+                        "publicCatering": 2600
+                    }
+                }
+            }
+        },
+
+    "FREE":
+        {
+            "IP": {
+                "USN_d": 5000,
+                "USN_d_r": 5000,
+                "OSNO": 5000
+            },
+            "OOO": {
+                "USN_d": 5000,
+                "USN_d_r": 5000,
+                "OSNO": 5000
+            },
+            "fields":{
+                "turnoverPerMonth": null,
+                "employees": "",
+                "сashierOneUnit": null,
+                "combinationWithPatent": null,
+                "currencyAccounts": null,
+                "newPartnersPerMonth": ""
+            },
+
+            "performance": {
+                "USN_d": {
+                    "IP": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    },
+                    "OOO": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    }
+                },
+                "USN_d_r": {
+                    "IP": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    },
+                    "OOO": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    }
+                },
+                "OSNO": {
+                    "IP": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    },
+                    "OOO": {
+                        "itServices": null,
+                        "trade": 1750,
+                        "productionAndConstruction": 2000,
+                        "publicCatering": 1250
+                    }
+                }
+            }
+        }
+}

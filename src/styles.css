@@ -1,0 +1,61 @@
+/* Basic styles */
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.125;
+    color: #000000;
+}
+
+placeholder{
+    opacity: 0.4;  
+}
+
+label {
+    cursor: pointer;
+}
+.container {
+    margin: 0 15px;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+      width: 480px;
+      margin: auto;
+    }
+}
+  
+@media screen and (min-width: 1160px) {
+    .container {
+      width: 1200px;
+    }
+}
+
+.stylesTitleForm {
+    width: 153px;
+    height: 25px;
+
+    font-size: 18px;
+    line-height: 1.389;
+}
+
+.active {
+    color: #FFFFFF;
+    background: #2E7ACC;
+}
