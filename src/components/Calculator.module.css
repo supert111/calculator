@@ -1,0 +1,370 @@
+.buttonStylesText {
+    font-weight:300;
+    font-size: 20px;
+    line-height: 1.35;
+    text-align: center;
+    color: #2E7ACC;
+}
+/* /////////////////////////// */
+
+.buttonBlock {
+    padding: 40px 0 0;
+}
+
+@media screen and (min-width: 1160px) {
+    .buttonBlock {
+        padding: 0;
+    }
+}
+
+.buttonBlockSmall {
+    padding: 20px 0 0;
+}
+
+@media screen and (min-width: 1160px) {
+    .buttonBlockSmall {
+        padding: 0;
+        margin: 0 0 0 60px;
+    }
+}
+
+.buttonLeft {
+    width: 173px;
+    height: 42px;
+    cursor: pointer;
+
+    border: 1px solid #2E7ACC;
+    box-sizing: border-box;
+    border-radius: 7px 0px 0px 7px;
+    background: #FFFFFF;
+}
+
+.buttonRight {
+    width: 172px;
+    height: 42px;
+    cursor: pointer;
+    border: 1px solid #2E7ACC;
+    box-sizing: border-box;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.buttonLeftSmall,
+.buttonRightSmall,
+.buttonCenterSmall {
+    width: 116px;
+    height: 42px;
+    border: 1px solid #2E7ACC;
+    cursor: pointer;
+}
+
+.buttonLeftSmall {
+    border-radius: 7px 0px 0px 7px;
+}
+
+.buttonCenterSmall {
+    width: 115px;
+    border-radius: 0px;
+    margin: 0 -1px;
+}
+
+.buttonRightSmall {
+    border-radius: 0px 7px 7px 0px;
+}
+
+.blockTariff {
+    width: 207px;
+    margin: 0 31px 0 0;
+}
+
+.blockTariff:hover {
+    cursor: pointer;
+}
+
+.blockTariffPrice {
+    width: 345px;
+    height: 166px;
+    margin: 25px 0 0;
+
+    background: #EBF5FF;
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 1160px) {
+    .blockTariffPrice {
+        position: absolute;
+        top: 0;
+        right: 18px;
+        width: 311px;
+        height: 410px;
+
+        margin: 50px 0 0;
+    }
+}
+
+.smallBlockTariffPrice {
+    padding: 33px 0 40px 81px;
+}
+
+@media screen and (min-width: 1160px) {
+    .smallBlockTariffPrice {
+        padding: 158px 0 159px 63px;
+    }
+}
+
+.blockTariffTitle {
+    width: 183px;
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.7;
+
+    text-align: center;
+    color: #000000;
+}
+
+.priceTariff {
+    width: 185px;
+
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 1;
+    
+    text-align: center;
+    color: #000000;
+}
+
+.performance {
+    width: 210px;
+    height: 185px;
+
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1160px) {
+    .performance {
+        position: absolute;
+        right: 505px;
+        top: 184px;     
+    }
+}
+
+.liPerformance {
+    margin: 20px 0 0;
+}
+
+.performanceTitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.39;
+}
+
+.check {
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 1.333;
+}
+
+.check__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.check__box {
+    position: absolute;
+    margin-top: 0;
+    margin-left: -30px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 0;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 2px solid #D94B93;
+}
+
+/* Checked */
+
+.check__input:checked + .check__box {
+    background-color: white;
+    background-image: url(../images/check.svg);
+}
+
+/* Focused */
+
+.check__input:focus + .check__box {
+    box-shadow: 
+        0 0 0 0.1em #f0c506,
+        0 0 0 0.2em #f0c506;
+}
+
+.labelFields {
+    display: block;
+    width: 345px;
+    font-size: 18px;
+    line-height: 1.389;
+    margin: 20px 25px 0 0;
+
+}  
+
+.inputFields,
+.inputFieldsDouble {
+    width: 345px;
+    height: 42px;
+
+    font-size: 16px;
+    line-height: 1.375;
+/* identical to box height */
+    color: #000000;
+
+    border: 1px solid #2E7ACC;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 5px 0 0;
+    padding: 10px 0 10px 10px;
+}
+
+.inputFieldsDouble {
+    width: 160px;
+}
+
+.inputFieldsDoublePosition {
+    display:flex;
+    width: 345px;
+}
+
+@media screen and (min-width: 1160px) {
+    .inputFieldsDoublePosition {
+        position: absolute;
+        right: 370px;
+        top: 92px;
+    }
+}
+
+.tariffs {
+    margin: 70px 0 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1160px) {
+    .tariffs {
+        margin: 80px 0 0;
+    }
+}
+
+.titleSectionTariff {
+    display: block;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.367;
+
+    margin: 0 0 0 127px;
+}
+
+@media screen and (min-width: 1160px) {
+    .titleSectionTariff {
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 1.365;
+
+        margin: 0;
+    }
+}
+
+.informationTariff {
+    width: 207px;
+    font-size: 20px;
+    line-height: 1.15;
+    height: 57px;
+    margin: 0 0 15px;
+}
+
+.informationEmployees,
+.informationСonsultations {
+    width: 205px;
+    font-size: 15px;
+    margin: 15px 0 33px 0;
+}
+
+.informationСonsultations {
+    height: 54px;
+}
+
+.informationDocument {
+    font-size: 15px;
+    height: 36px;
+    margin: 15px 0 141px;
+}
+
+.informationAdvances,
+.informationAgents,
+.informationСonsultations,
+.informationLawyer {
+    margin: 15px 0 33px 0;
+}
+
+.informationAssistant {
+    margin: 15px 0 0;
+}
+
+.informationEmployeesFree {
+    font-size: 15px;
+    line-height: 1.15;
+    margin: 15px 0;
+}
+
+.informationDocumentFree {
+    height: 126px;
+    margin: 15px 0 51px;
+    font-size: 15px;
+    line-height: 1.125;  
+}
+
+.informationСonsultationsFree {
+    margin: 15px 0 51px;
+}
+
+.tariffPriceFrom {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.778;
+}
+
+.line {
+    opacity: 0.6;
+    border: 0.5px solid #2E7ACC;
+    width: 238px;
+}
+
+.wrapperTariffList {
+    display: flex;
+    width: 360px;
+    height: 866px;
+    margin: 40px 0 0;
+}
+
+.priceStyle {
+    font-weight: 400;
+}
+/* ////DESCTOP STYLE /////*/
+@media screen and (min-width: 1160px) {
+    .wrapperButtons {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .frameCalculator {
+        position: relative;
+        width: 1160px;
+        height: 510px;
+        border: 5px solid #2E7ACC;
+        border-radius: 5px;
+        padding: 50px 18px 50px 30px;
+    }
+}
