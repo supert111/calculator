@@ -1,4 +1,3 @@
-import {DebounceInput} from 'react-debounce-input';
 import { useState } from "react";
 import classNames from 'classnames';
 import calculatorsData from "./calculator.json";
@@ -80,8 +79,8 @@ function handleInputChange (event) {
 function handleChange (event) {
     const target = event.target;
     const { value } = target;
-    
-    if (value < 0) {
+
+    if ( value < 0 ) {
         return;
     }
     const tariffForFields = curentTariff;
@@ -212,12 +211,11 @@ function handleChange (event) {
                     </ul>
 
                     <label className={styles.labelFields}>Оборот в месяц, руб.
-                        <DebounceInput className={styles.inputFields} 
+                        <input className={styles.inputFields} 
                             placeholder="Поступления на расчетный счет" 
                             name="turnoverPerMonth"
                             type="number"
                             minLength={2} 
-                            debounceTimeout={1000}
                             onChange={handleChange.bind(this)} />
                     </label>
                     <div className={styles.inputFieldsDoublePosition}>
