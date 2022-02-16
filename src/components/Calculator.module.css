@@ -46,6 +46,7 @@
     border: 1px solid #2E7ACC;
     box-sizing: border-box;
     border-radius: 0px 7px 7px 0px;
+    background: #FFFFFF;
 }
 
 .buttonLeftSmall,
@@ -55,6 +56,7 @@
     height: 42px;
     border: 1px solid #2E7ACC;
     cursor: pointer;
+    background: #FFFFFF;
 }
 
 .buttonLeftSmall {
